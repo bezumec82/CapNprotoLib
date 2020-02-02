@@ -1,0 +1,16 @@
+{
+    "x86compile" :
+    {
+        "LibName" : "capnproto-c++-0.7.0",
+        "CC" : "/usr/bin/gcc",
+        "CXX" : "/usr/bin/g++"
+    },
+    "RPiCompile" :
+    {
+        "LibName" : "capnproto-c++-0.7.0",
+        "RPiToolsPath" : "/media/constantine/Work/BOARDS/RASPBERRY/tools-master",
+        "CompilerPath" : "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin",
+        "CrossCompile" : "arm-linux-gnueabihf-",
+        "SysrootPath" : "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/arm-linux-gnueabihf/sysroot"
+    }
+}
